@@ -1,5 +1,5 @@
 import { Post } from '../types'
-import styles from './card.module.scss'
+import styles from "./Card.module.scss"
 
 function Card(post: Post) {
     return (
