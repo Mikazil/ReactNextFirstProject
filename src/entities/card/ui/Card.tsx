@@ -12,6 +12,6 @@ function Card(post: Post) {
 
         </>
     )
-}
+} 
 
 export default Card
