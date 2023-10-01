@@ -6,8 +6,8 @@ function Card(post: Post) {
         <>
 
             <a href="#" className={styles.a}>
-                <h5 className={styles.h5}>{post.header}</h5>
-                <p className={styles.p}>{post.body}</p>
+                <h5 className={styles.h5}>{post.product}</h5>
+                <p className={styles.p}>{post.price}</p>
             </a>
 
         </>

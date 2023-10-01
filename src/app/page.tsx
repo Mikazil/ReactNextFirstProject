@@ -1,13 +1,10 @@
-import { Card } from "@/entities/card"
 import './globals.css'
-import { Inputform } from "@/entities/inputForm"
-
+import InputOutput from '@/widgets/InputOutput/ui/InputOutput'
 
 export default function Home() {
   return (
-    <>
-      <Inputform/>
-      <Card header="ПеКарня" body="Персональные трусы" />
-    </>
+    <div className='m-10'>
+      <InputOutput />
+    </div>
   )
 }
